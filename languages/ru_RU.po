@@ -1,0 +1,1533 @@
+# Nimbo WordPress Theme - Pot File
+msgid ""
+msgstr ""
+"Project-Id-Version: Nimbo v1.4.2\n"
+"Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
+"POT-Creation-Date: 2020-08-17 15:41+0300\n"
+"PO-Revision-Date: 2020-08-17 15:44+0300\n"
+"Last-Translator: \n"
+"Language-Team: Alexey Trofimov (BirdwpThemes) <birdwp@mail.ru>\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Textdomain-Support: yesX-Generator: Poedit 1.8.8\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html_x:1,2c;esc_html__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;"
+"_x:1,2c;_n:1,2;_n_noop:1,2;__ngettext:1,2;__ngettext_noop:1,2;_c,_nc:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Generator: Poedit 2.2.3\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:19
+msgid "Oops... Error 404"
+msgstr "Ой... Ошибка 404"
+
+#: 404.php:20
+msgid "We are sorry, but the page you are looking for does not exist."
+msgstr "Извините, но страница, которую вы ищете, не существует."
+
+#: 404.php:21
+#, php-format
+msgid ""
+"Please check entered address and try again or go to <a href=\"%1$s\" rel="
+"\"home\"><strong>homepage</strong></a>."
+msgstr ""
+"Пожалуйста, проверьте введённый адрес и попробуйте снова или вернитесь на <a "
+"href=\"%1$s\" rel=\"home\"><strong>главную страницу</strong></a>."
+
+#: assets/class-tgm-plugin-activation.php:327 assets/plugin-activation.php:91
+msgid "Install Required Plugins"
+msgstr "Установка обязательных плагинов"
+
+#: assets/class-tgm-plugin-activation.php:328 assets/plugin-activation.php:92
+msgid "Install Plugins"
+msgstr "Установка плагинов"
+
+#: assets/class-tgm-plugin-activation.php:330 assets/plugin-activation.php:94
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr "Установка плагина: %s"
+
+#: assets/class-tgm-plugin-activation.php:332 assets/plugin-activation.php:96
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr "Обновление плагина: %s"
+
+#: assets/class-tgm-plugin-activation.php:333 assets/plugin-activation.php:97
+msgid "Something went wrong with the plugin API."
+msgstr "Что-то пошло не так с API плагина."
+
+#: assets/class-tgm-plugin-activation.php:336 assets/plugin-activation.php:100
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] "Для этой темы необходимо установить следующий плагин: %1$s."
+msgstr[1] "Для этой темы необходимо установить следующие плагины: %1$s."
+msgstr[2] "Для этой темы необходимо установить следующие плагины: %1$s."
+
+#: assets/class-tgm-plugin-activation.php:342 assets/plugin-activation.php:106
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] "Для этой темы рекомендуется установить следующий плагин: %1$s."
+msgstr[1] "Для этой темы рекомендуется установить следующие плагины: %1$s."
+msgstr[2] "Для этой темы рекомендуется установить следующие плагины: %1$s."
+
+#: assets/class-tgm-plugin-activation.php:348 assets/plugin-activation.php:112
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+"Следующий плагин должен быть обновлён до последней версии для обеспечения "
+"максимальной совместимости с текущей темой: %1$s."
+msgstr[1] ""
+"Следующие плагины должны быть обновлены до их последних версий для "
+"обеспечения максимальной совместимости с текущей темой: %1$s."
+msgstr[2] ""
+"Следующие плагины должны быть обновлены до их последних версий для "
+"обеспечения максимальной совместимости с текущей темой: %1$s."
+
+#: assets/class-tgm-plugin-activation.php:354 assets/plugin-activation.php:118
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] "Есть обновление доступное для: %1$s."
+msgstr[1] "Есть обновления доступные для следующих плагинов: %1$s."
+msgstr[2] "Есть обновления доступные для следующих плагинов: %1$s."
+
+#: assets/class-tgm-plugin-activation.php:360 assets/plugin-activation.php:124
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+"Следующий обязательный плагин в настоящее время деактивирован: %1$s."
+msgstr[1] ""
+"Следующие обязательные плагины в настоящее время деактивированы: %1$s."
+msgstr[2] ""
+"Следующие обязательные плагины в настоящее время деактивированы: %1$s."
+
+#: assets/class-tgm-plugin-activation.php:366 assets/plugin-activation.php:130
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+"Следующий рекомендуемый плагин в настоящее время деактивирован: %1$s."
+msgstr[1] ""
+"Следующие рекомендуемые плагины в настоящее время деактивированы: %1$s."
+msgstr[2] ""
+"Следующие рекомендуемые плагины в настоящее время деактивированы: %1$s."
+
+#: assets/class-tgm-plugin-activation.php:371 assets/plugin-activation.php:135
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] "Начать установку плагина"
+msgstr[1] "Начать установку плагинов"
+msgstr[2] "Начать установку плагинов"
+
+#: assets/class-tgm-plugin-activation.php:376 assets/plugin-activation.php:140
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] "Начать обновление плагина"
+msgstr[1] "Начать обновление плагинов"
+msgstr[2] "Начать обновление плагинов"
+
+#: assets/class-tgm-plugin-activation.php:381 assets/plugin-activation.php:145
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] "Начать активацию плагина"
+msgstr[1] "Начать активацию плагинов"
+msgstr[2] "Начать активацию плагинов"
+
+#: assets/class-tgm-plugin-activation.php:385 assets/plugin-activation.php:149
+msgid "Return to Required Plugins Installer"
+msgstr "Вернуться к установщику обязательных плагинов"
+
+#: assets/class-tgm-plugin-activation.php:386
+#: assets/class-tgm-plugin-activation.php:827
+#: assets/class-tgm-plugin-activation.php:2533
+#: assets/class-tgm-plugin-activation.php:3580
+msgid "Return to the Dashboard"
+msgstr "Вернуться к консоли"
+
+#: assets/class-tgm-plugin-activation.php:387
+#: assets/class-tgm-plugin-activation.php:3159 assets/plugin-activation.php:150
+msgid "Plugin activated successfully."
+msgstr "Плагин успешно активирован."
+
+#: assets/class-tgm-plugin-activation.php:388
+#: assets/class-tgm-plugin-activation.php:2952 assets/plugin-activation.php:151
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] "Следующий плагин был успешно активирован:"
+msgstr[1] "Следующие плагины были успешно активированы:"
+msgstr[2] "Следующие плагины были успешно активированы:"
+
+#: assets/class-tgm-plugin-activation.php:390 assets/plugin-activation.php:153
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr "Никаких действий не предпринято. Плагин %1$s уже активирован."
+
+#: assets/class-tgm-plugin-activation.php:392 assets/plugin-activation.php:155
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+"Плагин не активирован. Для этой темы необходима более высокая версия %s. "
+"Пожалуйста, обновите плагин."
+
+#: assets/class-tgm-plugin-activation.php:394 assets/plugin-activation.php:157
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "Все плагины успешно установлены и активированы. %1$s"
+
+#: assets/class-tgm-plugin-activation.php:395 assets/plugin-activation.php:158
+msgid "Dismiss this notice"
+msgstr "Закрыть это уведомление"
+
+#: assets/class-tgm-plugin-activation.php:396 assets/plugin-activation.php:159
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+"Для установки, обновления или активации есть один или несколько обязательных "
+"или рекомендуемых плагинов."
+
+#: assets/class-tgm-plugin-activation.php:397 assets/plugin-activation.php:160
+msgid "Please contact the administrator of this site for help."
+msgstr "Пожалуйста, обратитесь к администратору этого сайта за помощью."
+
+#: assets/class-tgm-plugin-activation.php:522
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+"Для совместимости данного плагина с вашей темой его требуется обновить."
+
+#: assets/class-tgm-plugin-activation.php:523
+msgid "Update Required"
+msgstr "Требуется обновление"
+
+#: assets/class-tgm-plugin-activation.php:934
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+"Удалённый архив плагина не содержит папку с указанным названием и "
+"переименование не работает."
+
+#: assets/class-tgm-plugin-activation.php:934
+#: assets/class-tgm-plugin-activation.php:937
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+"Пожалуйста, обратитесь к поставщику плагина и попросите его упаковать свой "
+"плагин в соответствии с рекомендациями WordPress."
+
+#: assets/class-tgm-plugin-activation.php:937
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+"Удалённый архив плагина состоит из более чем одного файла, но файлы не "
+"упакованы в папку."
+
+#: assets/class-tgm-plugin-activation.php:1121
+#: assets/class-tgm-plugin-activation.php:2948
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr "и"
+
+#: assets/class-tgm-plugin-activation.php:1982
+#, php-format
+msgid "TGMPA v%s"
+msgstr "TGMPA v%s"
+
+#: assets/class-tgm-plugin-activation.php:2273
+msgid "Required"
+msgstr "Обязательный"
+
+#: assets/class-tgm-plugin-activation.php:2276
+msgid "Recommended"
+msgstr "Рекомендуемый"
+
+#: assets/class-tgm-plugin-activation.php:2292
+msgid "WordPress Repository"
+msgstr "Репозиторий WordPress"
+
+#: assets/class-tgm-plugin-activation.php:2295
+msgid "External Source"
+msgstr "Внешний источник"
+
+#: assets/class-tgm-plugin-activation.php:2298
+msgid "Pre-Packaged"
+msgstr "Предварительно упакованный"
+
+#: assets/class-tgm-plugin-activation.php:2315
+msgid "Not Installed"
+msgstr "Не установлен"
+
+#: assets/class-tgm-plugin-activation.php:2319
+msgid "Installed But Not Activated"
+msgstr "Установлен, но не активирован"
+
+#: assets/class-tgm-plugin-activation.php:2321
+msgid "Active"
+msgstr "Активен"
+
+#: assets/class-tgm-plugin-activation.php:2327
+msgid "Required Update not Available"
+msgstr "Необходимое обновление недоступно"
+
+#: assets/class-tgm-plugin-activation.php:2330
+msgid "Requires Update"
+msgstr "Требует обновления"
+
+#: assets/class-tgm-plugin-activation.php:2333
+msgid "Update recommended"
+msgstr "Обновление рекомендуется"
+
+#: assets/class-tgm-plugin-activation.php:2342
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr "%1$s, %2$s"
+
+#: assets/class-tgm-plugin-activation.php:2388
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] "<span class=\"count\">(%s)</span>"
+msgstr[1] "Все <span class=\"count\">(%s)</span>"
+msgstr[2] "Все <span class=\"count\">(%s)</span>"
+
+#: assets/class-tgm-plugin-activation.php:2392
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] "Установить <span class=\"count\">(%s)</span>"
+msgstr[1] "Установить <span class=\"count\">(%s)</span>"
+msgstr[2] "Установить <span class=\"count\">(%s)</span>"
+
+#: assets/class-tgm-plugin-activation.php:2396
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] "Обновление доступно для <span class=\"count\">(%s)</span>"
+msgstr[1] "Обновление доступно для <span class=\"count\">(%s)</span>"
+msgstr[2] "Обновление доступно для <span class=\"count\">(%s)</span>"
+
+#: assets/class-tgm-plugin-activation.php:2400
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] "Активировать <span class=\"count\">(%s)</span>"
+msgstr[1] "Активировать <span class=\"count\">(%s)</span>"
+msgstr[2] "Активировать <span class=\"count\">(%s)</span>"
+
+#: assets/class-tgm-plugin-activation.php:2482
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr "неизвестно"
+
+#: assets/class-tgm-plugin-activation.php:2490
+msgid "Installed version:"
+msgstr "Установленная версия:"
+
+#: assets/class-tgm-plugin-activation.php:2498
+msgid "Minimum required version:"
+msgstr "Минимально необходимая версия:"
+
+#: assets/class-tgm-plugin-activation.php:2510
+msgid "Available version:"
+msgstr "Доступна версия:"
+
+#: assets/class-tgm-plugin-activation.php:2533
+msgid "No plugins to install, update or activate."
+msgstr "Нет плагинов для установки, обновления или активации."
+
+#: assets/class-tgm-plugin-activation.php:2547
+msgid "Plugin"
+msgstr "Плагин"
+
+#: assets/class-tgm-plugin-activation.php:2548
+msgid "Source"
+msgstr "Источник"
+
+#: assets/class-tgm-plugin-activation.php:2549
+msgid "Type"
+msgstr "Тип"
+
+#: assets/class-tgm-plugin-activation.php:2553
+msgid "Version"
+msgstr "Версия"
+
+#: assets/class-tgm-plugin-activation.php:2554
+msgid "Status"
+msgstr "Статус"
+
+#: assets/class-tgm-plugin-activation.php:2603
+#, php-format
+msgid "Install %2$s"
+msgstr "Установить %2$s"
+
+#: assets/class-tgm-plugin-activation.php:2608
+#, php-format
+msgid "Update %2$s"
+msgstr "Обновить %2$s"
+
+#: assets/class-tgm-plugin-activation.php:2614
+#, php-format
+msgid "Activate %2$s"
+msgstr "Активировать %2$s"
+
+#: assets/class-tgm-plugin-activation.php:2684
+msgid "Upgrade message from the plugin author:"
+msgstr "Сообщение об обновлении от автора плагина:"
+
+#: assets/class-tgm-plugin-activation.php:2717
+msgid "Install"
+msgstr "Установить"
+
+#: assets/class-tgm-plugin-activation.php:2723
+msgid "Update"
+msgstr "Обновить"
+
+#: assets/class-tgm-plugin-activation.php:2726
+msgid "Activate"
+msgstr "Активировать"
+
+#: assets/class-tgm-plugin-activation.php:2757
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+"Не было выбрано плагинов для установки. Никаких действий не предпринято."
+
+#: assets/class-tgm-plugin-activation.php:2759
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+"Не было выбрано плагинов для обновления. Никаких действий не предпринято."
+
+#: assets/class-tgm-plugin-activation.php:2800
+msgid "No plugins are available to be installed at this time."
+msgstr "В данный момент нет плагинов доступных для установки."
+
+#: assets/class-tgm-plugin-activation.php:2802
+msgid "No plugins are available to be updated at this time."
+msgstr "В данный момент нет плагинов доступных для обновления."
+
+#: assets/class-tgm-plugin-activation.php:2908
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+"Не было выбрано плагинов для активации. Никаких действий не предпринято."
+
+#: assets/class-tgm-plugin-activation.php:2934
+msgid "No plugins are available to be activated at this time."
+msgstr "В данный момент нет плагинов доступных для активации."
+
+#: assets/class-tgm-plugin-activation.php:3158
+msgid "Plugin activation failed."
+msgstr "Не удалось активировать плагин."
+
+#: assets/class-tgm-plugin-activation.php:3498
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr "Обновление плагина %1$s (%2$d/%3$d)"
+
+#: assets/class-tgm-plugin-activation.php:3501
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "Произошла ошибка при установке %1$s: <strong>%2$s</strong>."
+
+#: assets/class-tgm-plugin-activation.php:3503
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr "Не удалось выполнить установку %1$s."
+
+#: assets/class-tgm-plugin-activation.php:3507
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+"Процесс установки и активации начался. Этот процесс может занять некоторое "
+"время, поэтому, пожалуйста, будьте терпеливы."
+
+#: assets/class-tgm-plugin-activation.php:3509
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s успешно установлен и активирован."
+
+#: assets/class-tgm-plugin-activation.php:3510
+msgid "All installations and activations have been completed."
+msgstr "Все установки и активации были завершены."
+
+#: assets/class-tgm-plugin-activation.php:3512
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "Установка и активация плагина %1$s (%2$d/%3$d)"
+
+#: assets/class-tgm-plugin-activation.php:3515
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+"Процесс установки начался. Этот процесс может занять некоторое время, "
+"поэтому, пожалуйста, будьте терпеливы."
+
+#: assets/class-tgm-plugin-activation.php:3517
+#, php-format
+msgid "%1$s installed successfully."
+msgstr "%1$s успешно установлен."
+
+#: assets/class-tgm-plugin-activation.php:3518
+msgid "All installations have been completed."
+msgstr "Все установки были завершены."
+
+#: assets/class-tgm-plugin-activation.php:3520
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "Установка плагина %1$s (%2$d/%3$d)"
+
+#: assets/customizer.php:102
+msgid "Logo For Dark Style (optional)"
+msgstr "Логотип для тёмного стиля (необязательно)"
+
+#: assets/customizer.php:114
+msgid ""
+"Logo for the dark theme style must have the same dimensions as the original "
+"logo and should differ only in color."
+msgstr ""
+"Логотип для тёмного стиля темы должен иметь те же размеры, что и "
+"оригинальный логотип, и должен отличаться только цветом."
+
+#: assets/customizer.php:124
+msgid "Logo: Description"
+msgstr "Логотип: описание"
+
+#: assets/customizer.php:146
+msgid "Logo Width, px"
+msgstr "Ширина логотипа, px"
+
+#: assets/customizer.php:163
+msgid "General Settings"
+msgstr "Общие настройки"
+
+#: assets/customizer.php:188
+msgid "Header"
+msgstr "Заголовок (\"шапка\" сайта)"
+
+#: assets/customizer.php:209
+msgid "Header Type"
+msgstr "Тип заголовка:"
+
+#: assets/customizer.php:212
+msgid "Header: Type 1 - One row"
+msgstr "Тип 1 - Один ряд"
+
+#: assets/customizer.php:213
+msgid "Header: Type 2 - Two rows"
+msgstr "Тип 2 - Два ряда"
+
+#: assets/customizer.php:223
+msgid ""
+"If you use a logo with small dimensions, then the first header type "
+"(\"Header: Type 1 - One row\") will be a good choice."
+msgstr ""
+"Если вы используете логотип с небольшими размерами, то лучшим выбором будет "
+"первый тип заголовка (\"Заголовок: Тип 1 - Один ряд\")."
+
+#: assets/customizer.php:233
+msgid "Header Type: Description"
+msgstr "Тип заголовка: описание"
+
+#: assets/customizer.php:254
+msgid "Menu Type"
+msgstr "Тип меню"
+
+#: assets/customizer.php:257
+msgid "Hidden menu"
+msgstr "Скрытое меню"
+
+#: assets/customizer.php:258
+msgid "Visible menu"
+msgstr "Видимое меню"
+
+#: assets/customizer.php:277
+msgid "Enable color switch"
+msgstr "Включить переключатель цвета"
+
+#: assets/customizer.php:287
+msgid ""
+"After disabling the color switch option, the \"nimbo_site_style\" cookie "
+"with information about the current theme style will be deleted. The default "
+"theme style can be selected in the following option below: \"General "
+"Settings > Other Settings > Default Color Scheme\"."
+msgstr ""
+"После отключения опции переключения цвета, файл cookie \"nimbo_site_style\" "
+"с информацией о текущем стиле темы будет удалён. Стиль темы по умолчанию "
+"может быть выбран в настройке ниже: \"Общие настройки > Другие настройки > "
+"Цветовая схема по умолчанию\"."
+
+#: assets/customizer.php:297
+msgid "Color Switch: Description"
+msgstr "Переключатель цвета: описание"
+
+#: assets/customizer.php:318
+msgid "Dark Style: Color Switch Icon Type"
+msgstr "Тёмный стиль: Тип иконки переключателя цвета"
+
+#: assets/customizer.php:321
+msgid "Moon icon"
+msgstr "Иконка Луны"
+
+#: assets/customizer.php:322
+msgid "Sun icon"
+msgstr "Иконка Солнца"
+
+#: assets/customizer.php:341
+msgid "Show search icon and dropdown search form"
+msgstr "Показать иконку поиска и выпадающую форму поиска"
+
+#: assets/customizer.php:360
+msgid "Enable sticky header"
+msgstr "Включить липкий заголовок (\"шапка\" сайта)"
+
+#: assets/customizer.php:385
+msgid "Logo"
+msgstr "Логотип"
+
+#: assets/customizer.php:406
+msgid "Logo Type"
+msgstr "Тип логотипа"
+
+#: assets/customizer.php:409
+msgid "Text"
+msgstr "Текст"
+
+#: assets/customizer.php:410
+msgid "Image"
+msgstr "Изображение"
+
+#: assets/customizer.php:420
+msgid ""
+"You can add an image for your logo in the \"Site Identity\" section: \"Site "
+"Identity > Logo\"."
+msgstr ""
+"Вы можете добавить изображение для вашего логотипа в разделе \"Свойства "
+"сайта > Логотип\"."
+
+#: assets/customizer.php:430
+msgid "Logo Type: Description"
+msgstr "Тип логотипа: описание"
+
+#: assets/customizer.php:450
+msgid "Logo Text (Logo Type: Text)"
+msgstr "Текст логотипа (тип логотипа: текст)"
+
+#: assets/customizer.php:476
+msgid "Homepage: Header image and Header text"
+msgstr "Домашняя страница: изображение и текст заголовка"
+
+#: assets/customizer.php:497
+msgid "Show header image and header text only on the first page"
+msgstr "Показать изображение и текст заголовка только на первой странице"
+
+#: assets/customizer.php:522
+msgid "Blog"
+msgstr "Блог"
+
+#: assets/customizer.php:543 assets/theme-meta-boxes.php:46
+#: assets/theme-meta-boxes.php:252
+msgid "Layout"
+msgstr "Макет"
+
+#: assets/customizer.php:546
+msgid "No sidebar"
+msgstr "Без боковой панели"
+
+#: assets/customizer.php:547
+msgid "Left sidebar"
+msgstr "Боковая панель слева"
+
+#: assets/customizer.php:548
+msgid "Right sidebar"
+msgstr "Боковая панель справа"
+
+#: assets/customizer.php:573
+msgid "Blog Posts"
+msgstr "Записи блога"
+
+#: assets/customizer.php:594
+msgid "\"Excerpt\" Or \"Read More Tag\""
+msgstr "Использовать \"Отрывок\" или тег \"Далее\""
+
+#: assets/customizer.php:597
+msgid "Excerpt"
+msgstr "Отрывок"
+
+#: assets/customizer.php:598
+msgid "Read More Tag"
+msgstr "Тег далее"
+
+#: assets/customizer.php:608
+msgid ""
+"The \"Excerpt\" option does not apply to the following post formats: aside, "
+"link, status, chat, and quote."
+msgstr ""
+"Опция \"Отрывок\" не применяется к следующим форматам записей: заметка, "
+"ссылка, статус, чат и цитата."
+
+#: assets/customizer.php:618
+msgid "Excerpt Type: Description"
+msgstr "Тип отрывка: описание"
+
+#: assets/customizer.php:640
+msgid "Excerpt Length (Number Of Words)"
+msgstr "Длина отрывка (количество слов)"
+
+#: assets/customizer.php:661
+msgid ""
+"Increase the size of small images (option applies only to your featured "
+"images)"
+msgstr ""
+"Увеличить размер маленьких изображений (опция применяется только к вашим "
+"избранным изображениям записей)"
+
+#: assets/customizer.php:680
+msgid "Show icons when you hover on featured image"
+msgstr "Показать иконки при наведении на изображение записи"
+
+#: assets/customizer.php:699
+msgid "Show date"
+msgstr "Показать дату"
+
+#: assets/customizer.php:718
+msgid "Show author"
+msgstr "Показать автора"
+
+#: assets/customizer.php:740
+msgid "Show \"I like\" counter"
+msgstr "Показать счётчик \"Мне нравится\""
+
+#: assets/customizer.php:758
+msgid "Show social share buttons"
+msgstr "Показать кнопки \"Поделиться в социальных сетях\""
+
+#: assets/customizer.php:779
+msgid "Show recent comments"
+msgstr "Показать недавние комментарии"
+
+#: assets/customizer.php:799
+msgid "Number Of Recent Comments"
+msgstr "Число недавних комментариев"
+
+#: assets/customizer.php:821
+msgid "Comment: Number Of Words"
+msgstr "Комментарий: количество слов"
+
+#: assets/customizer.php:848
+msgid "Single Post Page"
+msgstr "Страница одной записи"
+
+#: assets/customizer.php:869
+msgid "Single Post Page: Default Layout"
+msgstr "Страница одной записи: Макет по умолчанию"
+
+#: assets/customizer.php:872 assets/theme-meta-boxes.php:41
+msgid "Post with right sidebar"
+msgstr "Запись с правой боковой панелью"
+
+#: assets/customizer.php:873 assets/theme-meta-boxes.php:42
+msgid "Post with left sidebar"
+msgstr "Запись с левой боковой панелью"
+
+#: assets/customizer.php:874 assets/theme-meta-boxes.php:43
+msgid "Full width post (without sidebar)"
+msgstr "Запись без боковой панели"
+
+#: assets/customizer.php:884
+msgid ""
+"Here you can change the default layout for all your posts. You can also "
+"change the layout for each post in the post settings: \"WordPress Dashboard "
+"> Posts > Add new or Edit existing post > Post Layout > Single post page: "
+"Layout\"."
+msgstr ""
+"Здесь вы можете изменить макет по умолчанию для всех ваших записей. Вы также "
+"можете изменить макет для каждой записи в настройках записи: \"WordPress "
+"Консоль > Записи > Добавить новую или Редактировать существующую запись > "
+"Макет записи > Макет страницы с записью\"."
+
+#: assets/customizer.php:894
+msgid "Default Post Layout: Description"
+msgstr "Макет записи по умолчанию: описание"
+
+#: assets/customizer.php:915
+msgid "Full Width Post: Image Size"
+msgstr "Запись без боковой панели: Размер изображения"
+
+#: assets/customizer.php:918
+msgid "Cropped image"
+msgstr "Обрезанное изображение"
+
+#: assets/customizer.php:919
+msgid "Original size"
+msgstr "Оригинальный размер"
+
+#: assets/customizer.php:938
+msgid ""
+"Show icons when you hover on featured image (option for single post page)"
+msgstr ""
+"Показать иконки при наведении на изображение записи (опция для страницы "
+"одной записи)"
+
+#: assets/customizer.php:957
+msgid "Show date (option for single post page)"
+msgstr "Показать дату (опция для страницы одной записи)"
+
+#: assets/customizer.php:976
+msgid "Show author (option for single post page)"
+msgstr "Показать автора (опция для страницы одной записи)"
+
+#: assets/customizer.php:995
+msgid "Show categories"
+msgstr "Показать рубрики"
+
+#: assets/customizer.php:1017
+msgid "Show social share buttons (option for single post page)"
+msgstr ""
+"Показать кнопки \"Поделиться в социальных сетях\" (опция для страницы одной "
+"записи)"
+
+#: assets/customizer.php:1041
+msgid "Show comments counter"
+msgstr "Показать счётчик комментариев"
+
+#: assets/customizer.php:1060
+msgid "Show \"I like\" counter (option for single post page)"
+msgstr "Показать счётчик \"Мне нравится\" (опция для страницы одной записи)"
+
+#: assets/customizer.php:1081
+msgid "Show \"About the author\" section"
+msgstr "Показать раздел \"Об авторе\""
+
+#: assets/customizer.php:1100
+msgid "Show related posts"
+msgstr "Показать похожие записи"
+
+#: assets/customizer.php:1125
+msgid "Single Page"
+msgstr "Одиночная страница"
+
+#: assets/customizer.php:1146
+msgid "Single Page: Default Layout"
+msgstr "Одиночная страница: Макет по умолчанию"
+
+#: assets/customizer.php:1149 assets/theme-meta-boxes.php:247
+msgid "Page with right sidebar"
+msgstr "Страница с правой боковой панелью"
+
+#: assets/customizer.php:1150 assets/theme-meta-boxes.php:248
+msgid "Page with left sidebar"
+msgstr "Страница с левой боковой панелью"
+
+#: assets/customizer.php:1151 assets/theme-meta-boxes.php:249
+msgid "Full width page (without sidebar)"
+msgstr "Страница без боковой панели"
+
+#: assets/customizer.php:1161
+msgid ""
+"Here you can change the default layout for all your pages. You can also "
+"change the layout for each page in the page settings: \"WordPress Dashboard "
+"> Pages > Add new or Edit existing page > General Settings for the Page > "
+"Page layout\"."
+msgstr ""
+"Здесь вы можете изменить макет по умолчанию для всех ваших страниц. Вы также "
+"можете изменить макет для каждой страницы в настройках страницы: \"WordPress "
+"Консоль > Страницы > Добавить новую или Редактировать существующую страницу "
+"> Общие настройки для страницы > Макет страницы\"."
+
+#: assets/customizer.php:1171
+msgid "Default Page Layout: Description"
+msgstr "Макет страницы по умолчанию: описание"
+
+#: assets/customizer.php:1198
+msgid "Footer"
+msgstr "\"Подвал\" сайта"
+
+#: assets/customizer.php:1218
+msgid "Copyright Text"
+msgstr "Текст авторского права"
+
+#: assets/customizer.php:1229 assets/customizer.php:1881
+msgid ""
+"Allowed HTML tags: a, span, strong, b, em, i, br. Allowed attributes: a - "
+"href, title, target, class, rel. span - class. i - class."
+msgstr ""
+"Разрешённые HTML теги: a, span, strong, b, em, i, br. Разрешённые атрибуты: "
+"a - href, title, target, class, rel. span - class. i - class."
+
+#: assets/customizer.php:1239
+msgid "Copyright Text: Allowed HTML Tags"
+msgstr "Текст авторского права: разрешённые HTML теги"
+
+#: assets/customizer.php:1260
+msgid "Show Social Links Or Menu In The Footer"
+msgstr "В подвале сайта выводить ссылки на социальные сети или меню"
+
+#: assets/customizer.php:1263 functions.php:67
+msgid "Footer menu"
+msgstr "Меню подвала сайта"
+
+#: assets/customizer.php:1264
+msgid "Social links"
+msgstr "Ссылки на социальные сети"
+
+#: assets/customizer.php:1282
+msgid "Social Links"
+msgstr "Разметка для ссылок на социальные сети"
+
+#: assets/customizer.php:1293
+msgid ""
+"Allowed HTML tags: a, span, i. Allowed attributes: a - href, title, target, "
+"class, rel. span - class. i - class. An example of filling this field you "
+"can see in the documentation."
+msgstr ""
+"Разрешённые HTML теги: a, span, i. Разрешённые атрибуты: a - href, title, "
+"target, class, rel. span - class. i - class. Пример заполнения этого поля вы "
+"можете посмотреть в документации к этой теме."
+
+#: assets/customizer.php:1303
+msgid "Social Links: Allowed HTML Tags"
+msgstr "Разметка для ссылок на социальные сети: разрешённые HTML теги"
+
+#: assets/customizer.php:1330
+msgid "Other Settings"
+msgstr "Другие настройки"
+
+#: assets/customizer.php:1351
+msgid "Default Color Scheme"
+msgstr "Цветовая схема по умолчанию"
+
+#: assets/customizer.php:1354
+msgid "Light"
+msgstr "Светлая"
+
+#: assets/customizer.php:1355
+msgid "Dark"
+msgstr "Тёмная"
+
+#: assets/customizer.php:1365
+msgid ""
+"This option will change the default color scheme for your site. Important! "
+"If your current browser has the \"nimbo_site_style\" cookie with information "
+"about the current theme style, then for this browser the color scheme will "
+"be what is written in this cookie file. For all other visitors, who do not "
+"have the \"nimbo_site_style\" cookie about the current style, the color "
+"scheme will be changed to the selected by default."
+msgstr ""
+"Эта опция изменит цветовую схему по умолчанию на вашем сайте. Важно! Если "
+"ваш текущий браузер имеет файл cookie \"nimbo_site_style\" с информацией о "
+"текущем стиле темы, то для этого браузера цветовая схема будет как записано "
+"в этом файле cookie. Для всех остальных посетителей вашего сайта, у кого нет "
+"этого файла cookie с информацией о текущем стиле, цветовая схема сайта будет "
+"изменена на выбранную по умолчанию."
+
+#: assets/customizer.php:1375
+msgid "Default Color Scheme: Description"
+msgstr "Цветовая схема по умолчанию: Описание"
+
+#: assets/customizer.php:1396
+msgid "Show \"Back to top\" button"
+msgstr "Показать кнопку \"К началу страницы\""
+
+#: assets/customizer.php:1415
+msgid "Enable cookies for the theme color switching function"
+msgstr "Использовать файлы cookie для функции переключения цвета"
+
+#: assets/customizer.php:1437
+msgid "Show \"Cookies information\" window"
+msgstr "Показать окно \"Информация о файлах cookie\""
+
+#: assets/customizer.php:1456
+msgid "\"Cookies Information\" Window: Window Type On Mobile Devices"
+msgstr "Тип окна \"Информация о файлах cookie\" на мобильных устройствах"
+
+#: assets/customizer.php:1459
+msgid "Hidden window"
+msgstr "Скрытое окно"
+
+#: assets/customizer.php:1460
+msgid "Visible window"
+msgstr "Видимое окно"
+
+#: assets/customizer.php:1478
+msgid "\"Cookies Information\" Window: Text"
+msgstr "Текст для окна \"Информация о файлах cookie\""
+
+#: assets/customizer.php:1489
+msgid ""
+"This is a required field (If this field is empty, the window will not "
+"appear). Allowed HTML tags: p, a, span, strong, b, em, i, br. Allowed "
+"attributes: p - class. a - href, title, target, class, rel. span - class. i "
+"- class."
+msgstr ""
+"Это обязательное поле (если это поле оставить пустым, окно не появится). "
+"Разрешённые HTML теги: p, a, span, strong, b, em, i, br. Разрешённые "
+"атрибуты: p - class. a - href, title, target, class, rel. span - class. i - "
+"class."
+
+#: assets/customizer.php:1499
+msgid "\"Cookies Information\" Window: Text - Allowed HTML Tags"
+msgstr "Окно \"Информация о файлах cookie\": разрешённые HTML теги для текста"
+
+#: assets/customizer.php:1519
+msgid "\"Cookies Information\" Window: Accept Button Text"
+msgstr "Текст кнопки \"Принять\" окна \"Информация о файлах cookie\""
+
+#: assets/customizer.php:1530
+msgid ""
+"This is a required field (If this field is empty, the window will not "
+"appear)."
+msgstr ""
+"Это обязательное поле (если это поле оставить пустым, окно не появится)."
+
+#: assets/customizer.php:1540
+msgid "\"Cookies Information\" Window: Accept Button Text - Description"
+msgstr ""
+"Текст кнопки \"Принять\" окна \"Информация о файлах cookie\": описание опции"
+
+#: assets/customizer.php:1559
+msgid "Fonts"
+msgstr "Шрифты"
+
+#: assets/customizer.php:1569
+msgid ""
+"The theme uses four Google fonts: Lora (main font), Source Sans Pro "
+"(headings, logo text, menus, copyright text, and \"cookies information\" "
+"window), Playfair Display (blockquote items), and PT Sans (metadata)."
+msgstr ""
+"Тема использует четыре Google шрифта: Lora (основной шрифт), Source Sans Pro "
+"(заголовки, текст логотипа, меню, текст авторского права и текст окна "
+"\"Информация о файлах cookie\"), Playfair Display (цитаты) и PT Sans (шрифт "
+"для метаданных)."
+
+#: assets/customizer.php:1579
+msgid "Information About Fonts"
+msgstr "Информация о шрифтах"
+
+#: assets/customizer.php:1599
+msgid "Character Sets"
+msgstr "Наборы символов (языки)"
+
+#: assets/customizer.php:1610
+msgid ""
+"Specify which subsets should be used. Multiple subsets must be separated "
+"with commas (,) and must be entered without spaces. Example: cyrillic,"
+"cyrillic-ext,latin-ext"
+msgstr ""
+"Укажите, какие наборы символов должны быть использованы. Несколько наборов "
+"должны быть разделены запятой (,) и не должны включать пробелы. Пример: "
+"cyrillic,cyrillic-ext,latin-ext"
+
+#: assets/customizer.php:1620
+msgid "Character Sets: Description"
+msgstr "Наборы символов: описание"
+
+#: assets/customizer.php:1647
+msgid "Styles"
+msgstr "Стили"
+
+#: assets/customizer.php:1667
+msgid "Main Font (Default Font: Lora; Default Styles: 400,400i,700,700i)"
+msgstr ""
+"Основной шрифт (шрифт по умолчанию: Lora; стили по умолчанию: "
+"400,400i,700,700i)"
+
+#: assets/customizer.php:1686
+msgid ""
+"Font For Headings (Default Font: Source Sans Pro; Default Styles: "
+"400,600,700)"
+msgstr ""
+"Шрифт для заголовков (шрифт по умолчанию: Source Sans Pro; стили по "
+"умолчанию: 400,600,700)"
+
+#: assets/customizer.php:1705
+msgid ""
+"Font For Quotes (Blockquote Items; Default Font: Playfair Display; Default "
+"Styles: 400,400i)"
+msgstr ""
+"Шрифт для цитат (шрифт по умолчанию: Playfair Display; стили по умолчанию: "
+"400,400i)"
+
+#: assets/customizer.php:1724
+msgid "Font For Metadata (Default Font: PT Sans; Default Styles: 400,700)"
+msgstr ""
+"Шрифт для метаданных (шрифт по умолчанию: PT Sans; стили по умолчанию: "
+"400,700)"
+
+#: assets/customizer.php:1750
+msgid "Hover/Active Color"
+msgstr "Цвет при наведении, цвет выбранных элементов"
+
+#: assets/customizer.php:1772
+msgid "Background Color (Dark Style)"
+msgstr "Цвет фона (для тёмного стиля)"
+
+#: assets/customizer.php:1794
+msgid "Hover/Active Color (Dark Style)"
+msgstr "Цвет при наведении, цвет выбранных элементов (для тёмного стиля)"
+
+#: assets/customizer.php:1811
+msgid "Header Text"
+msgstr "Текст заголовка"
+
+#: assets/customizer.php:1829
+msgid "Custom Title"
+msgstr "Заглавие"
+
+#: assets/customizer.php:1840
+msgid ""
+"Allowed HTML tags: a, span, strong, b, em, i. Allowed attributes: a - href, "
+"title, target, class, rel. span - class. i - class."
+msgstr ""
+"Разрешённые HTML теги: a, span, strong, b, em, i. Разрешённые атрибуты: a - "
+"href, title, target, class, rel. span - class. i - class."
+
+#: assets/customizer.php:1850
+msgid "Header Text: Custom Title - Allowed HTML Tags"
+msgstr "Заглавие: разрешённые HTML теги"
+
+#: assets/customizer.php:1870
+msgid "Custom Text"
+msgstr "Текст"
+
+#: assets/customizer.php:1891
+msgid "Header Text: Custom Text - Allowed HTML Tags"
+msgstr "Текст: разрешённые HTML теги"
+
+#: assets/theme-meta-boxes.php:25
+msgid "Post Layout"
+msgstr "Макет записи"
+
+#: assets/theme-meta-boxes.php:36
+msgid "Single post page: Layout"
+msgstr "Макет страницы с записью"
+
+#: assets/theme-meta-boxes.php:37
+msgid ""
+"Available layout options for the post: Post with right sidebar, post with "
+"left sidebar, and post without sidebar"
+msgstr ""
+"Доступные параметры макета для записи: Запись с правой боковой панелью, "
+"запись с левой боковой панелью и запись без боковой панели"
+
+#: assets/theme-meta-boxes.php:59
+msgid "Settings for the Gallery Format"
+msgstr "Настройки для формата \"Галерея\""
+
+#: assets/theme-meta-boxes.php:70 assets/theme-meta-boxes.php:115
+#: assets/theme-meta-boxes.php:160
+msgid "Media type"
+msgstr "Тип медиа (что выводить в качестве миниатюры записи)"
+
+#: assets/theme-meta-boxes.php:71
+msgid "Default value: Slider with images from the gallery"
+msgstr "Значение по умолчанию: Слайдер с изображениями из галереи"
+
+#: assets/theme-meta-boxes.php:75
+msgid "Featured image"
+msgstr "Изображение записи"
+
+#: assets/theme-meta-boxes.php:76
+msgid "Slider"
+msgstr "Слайдер с изображениями"
+
+#: assets/theme-meta-boxes.php:80
+msgid "Featured image / Slider"
+msgstr "Изображение записи / Слайдер"
+
+#: assets/theme-meta-boxes.php:88
+msgid "Add images for the gallery"
+msgstr "Добавить изображения в галерею"
+
+#: assets/theme-meta-boxes.php:104
+msgid "Settings for the Video Format"
+msgstr "Настройки для формата \"Видео\""
+
+#: assets/theme-meta-boxes.php:116
+msgid "Default value: Video player (iframe)"
+msgstr "Значение по умолчанию: Видеоплеер (iframe)"
+
+#: assets/theme-meta-boxes.php:120
+msgid "Video player (iframe)"
+msgstr "Видеоплеер (iframe)"
+
+#: assets/theme-meta-boxes.php:121
+msgid "Featured image and popup window with video player"
+msgstr "Изображение записи и всплывающее окно с видеоплеером"
+
+#: assets/theme-meta-boxes.php:125
+msgid "Video player / Featured image"
+msgstr "Видеоплеер / Изображение записи"
+
+#: assets/theme-meta-boxes.php:133
+msgid "Video URL"
+msgstr "URL-адрес видео"
+
+#: assets/theme-meta-boxes.php:135
+msgid ""
+"Insert a link (URL) on a video from one of the video hosting sites: YouTube, "
+"Vimeo, etc"
+msgstr ""
+"Вставьте ссылку (URL-адрес) на видео с одного из видеохостингов: YouTube, "
+"Vimeo и т.д."
+
+#: assets/theme-meta-boxes.php:149
+msgid "Settings for the Audio Format"
+msgstr "Настройки для формата \"Аудио\""
+
+#: assets/theme-meta-boxes.php:161
+msgid "Default value: Audio player (iframe)"
+msgstr "Значение по умолчанию: Аудиоплеер (iframe)"
+
+#: assets/theme-meta-boxes.php:165
+msgid "Audio player (iframe)"
+msgstr "Аудиоплеер (iframe)"
+
+#: assets/theme-meta-boxes.php:166
+msgid "Featured image and popup window with audio player"
+msgstr "Изображение записи и всплывающее окно с аудиоплеером"
+
+#: assets/theme-meta-boxes.php:170
+msgid "Audio player / Featured image"
+msgstr "Аудиоплеер / Изображение записи"
+
+#: assets/theme-meta-boxes.php:178
+msgid "SoundCloud URL"
+msgstr "URL-адрес аудиозаписи из SoundCloud"
+
+#: assets/theme-meta-boxes.php:180
+msgid "Insert a link (URL) on a song from the SoundCloud service"
+msgstr ""
+"Вставьте ссылку (URL-адрес) на песню из SoundCloud - это онлайн-платформа, "
+"которая позволяет слушать любимую музыку онлайн"
+
+#: assets/theme-meta-boxes.php:194
+msgid "Settings for the Link Format"
+msgstr "Настройки для формата \"Ссылка\""
+
+#: assets/theme-meta-boxes.php:205
+msgid "Link open in... (target attribute)"
+msgstr "Ссылку открывать в... (атрибут target)"
+
+#: assets/theme-meta-boxes.php:206
+msgid "Default value: New tab (_blank)"
+msgstr "Значение по умолчанию: Новая вкладка (_blank)"
+
+#: assets/theme-meta-boxes.php:210
+msgid "Current tab (_self)"
+msgstr "Текущая вкладка (_self)"
+
+#: assets/theme-meta-boxes.php:211
+msgid "New tab (_blank)"
+msgstr "Новая вкладка (_blank)"
+
+#: assets/theme-meta-boxes.php:215
+msgid "Current tab / New tab"
+msgstr "Текущая вкладка / Новая вкладка"
+
+#: assets/theme-meta-boxes.php:231
+msgid "General Settings for the Page"
+msgstr "Общие настройки для страницы"
+
+#: assets/theme-meta-boxes.php:242
+msgid "Page layout"
+msgstr "Макет страницы"
+
+#: assets/theme-meta-boxes.php:243
+msgid ""
+"Available layout options for the page: Page with right sidebar, page with "
+"left sidebar, and page without sidebar"
+msgstr ""
+"Доступные параметры макета для страницы: Страница с правой боковой панелью, "
+"страница с левой боковой панелью и страница без боковой панели"
+
+#: assets/theme-meta-boxes.php:260
+msgid "Page metadata (date and author): Show or hide"
+msgstr "Метаданные страницы (дата и автор): показать или скрыть"
+
+#: assets/theme-meta-boxes.php:261
+msgid "Default value: Show"
+msgstr "Значение по умолчанию: Показать"
+
+#: assets/theme-meta-boxes.php:265 assets/theme-meta-boxes.php:283
+msgid "Show"
+msgstr "Показать"
+
+#: assets/theme-meta-boxes.php:266 assets/theme-meta-boxes.php:284
+msgid "Hide"
+msgstr "Скрыть"
+
+#: assets/theme-meta-boxes.php:270 assets/theme-meta-boxes.php:288
+msgid "Show / Hide"
+msgstr "Показать / Скрыть"
+
+#: assets/theme-meta-boxes.php:278
+msgid "Blog posts on the page: Show or hide"
+msgstr "Записи блога на странице: показать или скрыть"
+
+#: assets/theme-meta-boxes.php:279
+msgid "Default value: Hide"
+msgstr "Значение по умолчанию: Скрыть"
+
+#: comments.php:42
+#, php-format
+msgctxt "comments title"
+msgid "One thought on &ldquo;%s&rdquo;"
+msgstr "Один комментарий к записи &ldquo;%s&rdquo;"
+
+#: comments.php:52
+#, php-format
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s комментарий к записи &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s комментария к записи &ldquo;%2$s&rdquo;"
+msgstr[2] "%1$s комментариев к записи &ldquo;%2$s&rdquo;"
+
+#: comments.php:82
+msgid "Older comments"
+msgstr "Предыдущие комментарии"
+
+#: comments.php:83
+msgid "Newer comments"
+msgstr "Новые комментарии"
+
+#: comments.php:95 functions.php:1354
+msgid "Comments are closed."
+msgstr "Комментарии закрыты."
+
+#: comments.php:103
+msgid "Your email address will not be published. Required fields are marked *"
+msgstr "Ваш email не будет опубликован. Обязательные поля помечены *"
+
+#: comments.php:104
+msgid "Leave a reply"
+msgstr "Оставить комментарий"
+
+#: comments.php:105
+#, php-format
+msgid "Leave a reply to %s"
+msgstr "Оставить комментарий к %s"
+
+#: comments.php:106
+msgid "Cancel reply"
+msgstr "Отменить ответ"
+
+#: comments.php:107
+msgid "Post comment"
+msgstr "Комментировать"
+
+#: content-none.php:14
+msgid "Nothing found"
+msgstr "Ничего не найдено"
+
+#: content-none.php:17
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+"Готовы опубликовать вашу первую запись? <a href=\"%1$s\">Начните здесь</a>."
+
+#: content-none.php:19
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+"Извините, но ничто не соответствовало вашим условиям поиска. Пожалуйста, "
+"попытайтесь снова с другими ключевыми словами."
+
+#: content-none.php:21
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for."
+msgstr "Кажется, мы не можем найти то, что вы ищете."
+
+#: footer.php:19
+msgid "Widgets"
+msgstr "Виджеты"
+
+#: functions.php:66
+msgid "Main menu"
+msgstr "Основное меню"
+
+#: functions.php:159 functions.php:438
+msgctxt "Google fonts: on or off"
+msgid "on"
+msgstr "on"
+
+#: functions.php:517 functions.php:1097 functions.php:1174
+msgid "Read more"
+msgstr "Читать далее"
+
+#: functions.php:1003
+msgid "Search results for:"
+msgstr "Результаты поиска для:"
+
+#: functions.php:1013
+msgid "Found:"
+msgstr "Найдено:"
+
+#: functions.php:1014 functions.php:1629
+msgid "Post"
+msgstr "Запись"
+
+#: functions.php:1014 functions.php:1629
+msgid "Posts"
+msgstr "Записи"
+
+#: functions.php:1042
+msgid "Blog posts"
+msgstr "Записи блога"
+
+#: functions.php:1202 functions.php:1209
+msgid "Posted by"
+msgstr "Автор записи:"
+
+#: functions.php:1306
+msgid "Recent comments"
+msgstr "Недавние комментарии"
+
+#: functions.php:1348
+msgid "Add a comment..."
+msgstr "Добавить комментарий..."
+
+#: functions.php:1397 functions.php:1411
+msgid "Posted on"
+msgstr "Опубликовано:"
+
+#: functions.php:1428
+msgid "By"
+msgstr "Автор:"
+
+#: functions.php:1429 functions.php:1613 functions.php:1623
+msgid "Posts by"
+msgstr "Записи автора:"
+
+#: functions.php:1448
+msgid "In"
+msgstr "Рубрики:"
+
+#: functions.php:1500
+msgid "Pages:"
+msgstr "Страницы:"
+
+#: functions.php:1529
+msgid "Tags:"
+msgstr "Метки:"
+
+#: functions.php:1608
+msgid "Written by"
+msgstr "Автор записи"
+
+#: functions.php:1638
+msgid "View all posts"
+msgstr "Смотреть все записи"
+
+#: functions.php:1661
+msgid "Sidebar"
+msgstr "Боковая панель"
+
+#: functions.php:1663
+msgid ""
+"Add widgets here to appear in your sidebar on blog posts, homepage, single "
+"pages, and archive pages. This sidebar is located in the left or right "
+"column."
+msgstr ""
+"Добавьте виджеты сюда для того, чтобы они появились в боковой панели на "
+"страницах записей, домашней странице, одиночных страницах и архивных "
+"страницах. Эта боковая панель расположена в левой или правой колонке."
+
+#: functions.php:1672
+msgid "Footer: Column 1"
+msgstr "Подвал сайта: Колонка 1"
+
+#: functions.php:1674
+msgid "Add widgets here to appear in your footer (column 1: left column)."
+msgstr ""
+"Добавьте виджеты сюда для того, чтобы они появились в подвале сайта (левая "
+"колонка)."
+
+#: functions.php:1683
+msgid "Footer: Column 2"
+msgstr "Подвал сайта: Колонка 2"
+
+#: functions.php:1685
+msgid "Add widgets here to appear in your footer (column 2: central column)."
+msgstr ""
+"Добавьте виджеты сюда для того, чтобы они появились в подвале сайта "
+"(центральная колонка)."
+
+#: functions.php:1694
+msgid "Footer: Column 3"
+msgstr "Подвал сайта: Колонка 3"
+
+#: functions.php:1696
+msgid "Add widgets here to appear in your footer (column 3: right column)."
+msgstr ""
+"Добавьте виджеты сюда для того, чтобы они появились в подвале сайта (правая "
+"колонка)."
+
+#: searchform.php:14
+msgid "Enter your search query..."
+msgstr "Введите поисковый запрос..."
+
+#: single.php:136
+msgid "Next post"
+msgstr "Следующая запись"
+
+#: single.php:137
+msgid "Previous post"
+msgstr "Предыдущая запись"
+
+#: templates/blog-posts.php:69
+msgid "Newer posts"
+msgstr "Следующая"
+
+#: templates/blog-posts.php:70
+msgid "Older posts"
+msgstr "Предыдущая"
+
+#: templates/posts-on-page.php:41
+msgid "Posts from our blog"
+msgstr "Записи блога"
+
+#: templates/related-posts.php:59
+msgid "You may also like"
+msgstr "Вам также может понравиться"
+
+#~ msgid "Default layout: Post with right sidebar"
+#~ msgstr "Макет по умолчанию: Запись с правой боковой панелью"
+
+#~ msgid "Default layout: Page with right sidebar"
+#~ msgstr "Макет по умолчанию: Страница с правой боковой панелью"
+
+#~ msgid ""
+#~ "Add widgets here to appear in your sidebar on blog posts, single pages, "
+#~ "and archive pages. This sidebar is located in the left or right column."
+#~ msgstr ""
+#~ "Добавьте виджеты сюда для того, чтобы они появились в вашей боковой "
+#~ "панели на страницах записей, одиночных страницах и архивных страницах. "
+#~ "Эта боковая панель будет расположена в левой или правой колонке."
+
+#~ msgid ""
+#~ "If you disable the color switch, the dark theme style will also be "
+#~ "disabled."
+#~ msgstr ""
+#~ "Если вы отключите переключатель цвета, то тёмный стиль будет также "
+#~ "отключён."

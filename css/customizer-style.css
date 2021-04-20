@@ -1,0 +1,44 @@
+/*
+Theme Name: Nimbo
+Description: Used to style new customize controls
+Version: 1.0.1
+*/
+
+/**
+ * Table of Contents:
+ *
+ * 1.0 - Customize control: Heading (title and subtitle)
+ * 2.0 - Customize control: Short description
+ */
+
+/**
+ * 1.0 - Customize control: Heading (title and subtitle)
+ * ----------------------------------------------------------------------------
+ */
+
+.bwp-customize-control-heading {
+	margin: 8px 0 6px;
+	padding: 15px 20px;
+	background-color: #e5e5e5;
+}
+.bwp-customize-control-heading .customize-control-title {
+	margin-bottom: 0;
+	font-size: 15px;
+	line-height: 1.5;
+	color: #22262a;
+}
+.bwp-customize-control-heading .bwp-customize-control-subtitle {
+	display: block;
+	margin: 4px 0 3px;
+}
+
+
+/**
+ * 2.0 - Customize control: Short description
+ * ----------------------------------------------------------------------------
+ */
+
+.bwp-customize-control-description {
+	margin: -5px 0 2px;
+	font-style: italic;
+}
